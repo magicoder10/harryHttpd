@@ -1,0 +1,116 @@
+html {
+	padding: 0;
+	margin: 0;
+	background-color: #FFEB7E;
+
+	font-family: "Indie Flower";
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+p {
+	padding: 0;
+	margin: 0;
+}
+
+.main-board {
+	position: fixed;
+	float: left;
+	top: calc((100% - 534px - 104px)/2) ;
+	left: calc((100% - 906px)/2);
+
+	width: 906px;
+	height: 534px;
+	background-color: #BD3A16;
+
+	border-radius: 6px;
+	box-shadow: 0 0 4px rgba(0, 0, 0 , 0.7);
+}
+
+.main-board .jumbotron {
+	margin: 34px;
+	padding: 52px;
+	border: 2px dashed rgba(255, 235, 126, 70);
+	border-radius: 6px;
+}
+
+.main-board .jumbotron .error-code {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	width: 186px;
+	font-size: 40px;
+	padding: 32px 44px 32px 44px;
+	color: white;
+	background-color: #992C0F;
+	border-radius: 6px;
+}
+
+.main-board .jumbotron .error-code span {
+	margin: 0 16px 0 16px;
+}
+
+.main-board .jumbotron .error-title {
+	color: #F5C451;
+	font-size: 52px;
+	margin-bottom: 10px;
+}
+
+.main-board .jumbotron .error-description {
+	color: white;
+	font-size: 18px;
+}
+
+.main-board .author-project-info {
+	padding: 0 36px 36px 36px;
+}
+
+.main-board .author-project-info .author-info {
+	float: left;
+	text-align: left;
+}
+
+.main-board .author-project-info .author-info .author-name {
+	font-size: 24px;
+	color: #FFFF5B;
+}
+
+.main-board .author-project-info .author-info .author-email {
+	font-size: 16px;
+	color: white;
+}
+
+.main-board .author-project-info .project-info {
+	float: right;
+	text-align: right;
+}
+
+.main-board .author-project-info .project-info .project-from {
+	font-size: 24px;
+	color: #FFFF5B;
+}
+
+.main-board .author-project-info .project-info .project-name {
+	font-size: 16px;
+	color: white;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+
+	padding: 34px 0 34px 0;
+	background-color: #373737;
+	color: white;
+	box-shadow: 0 0 4px rgba(0, 0, 0 , 0.7);
+}
+
+.footer p a {
+	color: white;
+	font-weight: bolder;
+}
