@@ -2,8 +2,8 @@
 Simple HTTP server in C
 
 ## Components
-1. Server, Simple Http Server
-1. Client, Simple Http Client
+1. Server, Simple HTTP Server
+1. Client, Simple HTTP Client
 
 ## Prerequisite
 
@@ -37,7 +37,10 @@ Simple HTTP server in C
    ```
 
    eg.
+   
+   ```bash
    > ./client localhost/TMDG.html 80
+   ```
 
 ### Note
 You can also visit `http://localhost/TMDG.html` in your web browser to verify the server is working as expected.
